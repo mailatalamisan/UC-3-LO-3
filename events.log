@@ -1,0 +1,12 @@
+index.html:75 Live reload enabled.
+var h2 = document.querySelector('#book-list h2')
+undefined
+h2
+<h2 class=​"title">​Books to Read​</h2>​
+h2.addEventListener('click', function(e){
+    console.log(e.target);
+    console.log(e);
+})
+undefined
+VM562:2 <h2 class=​"title">​Books to Read​</h2>​
+VM562:3 MouseEvent {isTrusted: true, screenX: 719, screenY: 466, clientX: 132, clientY: 245, …}altKey: falsebubbles: truebutton: 0buttons: 0cancelBubble: falsecancelable: trueclientX: 132clientY: 245composed: truectrlKey: falsecurrentTarget: nulldefaultPrevented: falsedetail: 1eventPhase: 0fromElement: nullisTrusted: truelayerX: 113layerY: 225metaKey: falsemovementX: 0movementY: 0offsetX: 83offsetY: 20pageX: 132pageY: 245path: (7) [h2.title, div#book-list, div#wrapper, body, html, document, Window]relatedTarget: nullreturnValue: truescreenX: 719screenY: 466shiftKey: falsesourceCapabilities: InputDeviceCapabilities {firesTouchEvents: false}srcElement: h2.titletarget: h2.titletimeStamp: 224308.6800002493toElement: h2.titletype: "click"view: Window {window: Window, self: Window, document: document, name: "", location: Location, …}which: 1x: 132y: 245__proto__: MouseEvent
